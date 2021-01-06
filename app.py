@@ -3,7 +3,7 @@ from flaskwebgui import FlaskUI
 from library import library
 app = Flask(__name__)
 ui = FlaskUI(app)
-libs = library()adasdasdaas
+libs = library()
 
 
 @app.route('/', methods=['GET', 'POST'])
